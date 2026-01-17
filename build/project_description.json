@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "main",
-    "project_version":    "1",
+    "project_version":    "53a094e-dirty",
     "project_path":       "D:/Baitap/work/firmware/Fw_for_sim/Fw_can_tx",
     "idf_path":           "D:/ESP_IDF_5_4_2/frameworks/esp-idf-v5.4.2",
     "build_dir":          "D:/Baitap/work/firmware/Fw_for_sim/Fw_can_tx/build",
@@ -1195,7 +1195,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "D:/Baitap/work/firmware/Fw_for_sim/Fw_can_tx/build/esp-idf/main/libmain.a",
-            "sources": [ "D:/Baitap/work/firmware/Fw_for_sim/Fw_can_tx/main/main.c" ],
+            "sources": [ "D:/Baitap/work/firmware/Fw_for_sim/Fw_can_tx/main/main_v2.c", "D:/Baitap/work/firmware/Fw_for_sim/Fw_can_tx/main/isotp.c", "D:/Baitap/work/firmware/Fw_for_sim/Fw_can_tx/main/isotp_handler.c" ],
             "include_dirs": [ "." ]
         },
         "mbedtls": {
