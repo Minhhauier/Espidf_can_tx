@@ -1,0 +1,375 @@
+Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 153911750, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6276
+load:0x40078000,len:15736
+load:0x40080400,len:4
+load:0x40080404,len:3860
+entry 0x4008063c
+[0;32mI (30) boot: ESP-IDF v5.4.2 2nd stage bootloader[0m
+[0;32mI (30) boot: compile time Jan 16 2026 07:16:20[0m
+[0;32mI (30) boot: Multicore bootloader[0m
+[0;32mI (31) boot: chip revision: v3.1[0m
+[0;32mI (34) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (38) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (42) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (45) boot: Enabling RNG early entropy source...[0m
+[0;32mI (50) boot: Partition Table:[0m
+[0;32mI (52) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (65) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (72) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (78) boot: End of partition table[0m
+[0;32mI (81) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09fd4h ( 40916) map[0m
+[0;32mI (103) esp_image: segment 1: paddr=00019ffc vaddr=3ff80000 size=0001ch (    28) load[0m
+[0;32mI (103) esp_image: segment 2: paddr=0001a020 vaddr=3ffb0000 size=023b8h (  9144) load[0m
+[0;32mI (110) esp_image: segment 3: paddr=0001c3e0 vaddr=40080000 size=03c38h ( 15416) load[0m
+[0;32mI (120) esp_image: segment 4: paddr=00020020 vaddr=400d0020 size=17e34h ( 97844) map[0m
+[0;32mI (155) esp_image: segment 5: paddr=00037e5c vaddr=40083c38 size=094f8h ( 38136) load[0m
+[0;32mI (177) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (177) boot: Disabling RNG early entropy source...[0m
+[0;32mI (187) cpu_start: Multicore app[0m
+[0;32mI (195) cpu_start: Pro cpu start user code[0m
+[0;32mI (196) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (196) app_init: Application information:[0m
+[0;32mI (196) app_init: Project name:     main[0m
+[0;32mI (199) app_init: App version:      1[0m
+[0;32mI (203) app_init: Compile time:     Jan 16 2026 07:15:02[0m
+[0;32mI (208) app_init: ELF file SHA256:  18d894b57...[0m
+[0;32mI (212) app_init: ESP-IDF:          v5.4.2[0m
+[0;32mI (216) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (220) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (224) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (228) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (234) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (239) heap_init: At 3FFB2C80 len 0002D380 (180 KiB): DRAM[0m
+[0;32mI (244) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (250) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (255) heap_init: At 4008D130 len 00012ED0 (75 KiB): IRAM[0m
+[0;32mI (262) spi_flash: detected chip: gd[0m
+[0;32mI (263) spi_flash: flash io: dio[0m
+[0;33mW (266) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (279) main_task: Started on CPU0[0m
+[0;32mI (289) main_task: Calling app_main()[0m
+CAN được khởi tạo thành công
+Gửi: Count: 1
+Gửi: Count: 2
+Gửi: Count: 3
+Gửi: Count: 4
+Gửi: Count: 5
+Gửi: Count: 6
+Gửi: Count: 7
+Gửi: Count: 8
+Gửi: Count: 9
+Gửi: Count: 10
+Gửi: Count: 11
+Gửi: Count: 12
+Gửi: Count: 13
+Gửi: Count: 14
+Gửi: Count: 15
+Gửi: Count: 16
+Gửi: Count: 17
+Gửi: Count: 18
+Gửi: Count: 19
+Gửi: Count: 20
+Gửi: Count: 21
+Gửi: Count: 22
+Gửi: Count: 23
+Gửi: Count: 24
+Gửi: Count: 25
+Gửi: Count: 26
+Gửi: Count: 27
+Gửi: Count: 28
+Gửi: Count: 29
+Gửi: Count: 30
+Gửi: Count: 31
+Gửi: Count: 32
+Gửi: Count: 33
+Gửi: Count: 34
+Gửi: Count: 35
+Gửi: Count: 36
+Gửi: Count: 37
+Gửi: Count: 38
+Gửi: Count: 39
+Gửi: Count: 40
+Gửi: Count: 41
+Gửi: Count: 42
+Gửi: Count: 43
+Gửi: Count: 44
+Gửi: Count: 45
+Gửi: Count: 46
+Gửi: Count: 47
+Gửi: Count: 48
+Gửi: Count: 49
+Gửi: Count: 50
+Gửi: Count: 51
+Gửi: Count: 52
+Gửi: Count: 53
+Gửi: Count: 54
+Gửi: Count: 55
+Gửi: Count: 56
+Gửi: Count: 57
+Gửi: Count: 58
+Gửi: Count: 59
+Gửi: Count: 60
+Gửi: Count: 61
+Gửi: Count: 62
+Gửi: Count: 63
+Gửi: Count: 64
+Gửi: Count: 65
+Gửi: Count: 66
+Gửi: Count: 67
+Gửi: Count: 68
+Gửi: Count: 69
+Gửi: Count: 70
+Gửi: Count: 71
+Gửi: Count: 72
+Gửi: Count: 73
+Gửi: Count: 74
+Gửi: Count: 75
+Gửi: Count: 76
+Gửi: Count: 77
+Gửi: Count: 78
+Gửi: Count: 79
+Gửi: Count: 80
+Gửi: Count: 81
+Gửi: Count: 82
+Gửi: Count: 83
+Gửi: Count: 84
+Gửi: Count: 85
+Gửi: Count: 86
+Gửi: Count: 87
+Gửi: Count: 88
+Gửi: Count: 89
+Gửi: Count: 90
+Gửi: Count: 91
+Gửi: Count: 92
+Gửi: Count: 93
+Gửi: Count: 94
+Gửi: Count: 95
+Gửi: Count: 96
+Gửi: Count: 97
+Gửi: Count: 98
+Gửi: Count: 99
+Gửi: Count: 100
+Gửi: Count: 101
+Gửi: Count: 102
+Gửi: Count: 103
+Gửi: Count: 104
+Gửi: Count: 105
+Gửi: Count: 106
+Gửi: Count: 107
+Gửi: Count: 108
+Gửi: Count: 109
+Gửi: Count: 110
+Gửi: Count: 111
+Gửi: Count: 112
+Gửi: Count: 113
+Gửi: Count: 114
+Gửi: Count: 115
+Gửi: Count: 116
+Gửi: Count: 117
+Gửi: Count: 118
+Gửi: Count: 119
+Gửi: Count: 120
+Gửi: Count: 121
+Gửi: Count: 122
+Gửi: Count: 123
+Gửi: Count: 124
+Gửi: Count: 125
+Gửi: Count: 126
+Gửi: Count: 127
+Gửi: Count: 128
+Gửi: Count: 129
+Gửi: Count: 130
+Gửi: Count: 131
+Gửi: Count: 132
+Gửi: Count: 133
+Gửi: Count: 134
+Gửi: Count: 135
+Gửi: Count: 136
+Gửi: Count: 137
+Gửi: Count: 138
+Gửi: Count: 139
+Gửi: Count: 140
+Gửi: Count: 141
+Gửi: Count: 142
+Gửi: Count: 143
+Gửi: Count: 144
+Gửi: Count: 145
+Gửi: Count: 146
+Gửi: Count: 147
+Gửi: Count: 148
+Gửi: Count: 149
+Gửi: Count: 150
+Gửi: Count: 151
+Gửi: Count: 152
+Gửi: Count: 153
+Gửi: Count: 154
+Gửi: Count: 155
+Gửi: Count: 156
+Gửi: Count: 157
+Gửi: Count: 158
+Gửi: Count: 159
+Gửi: Count: 160
+Gửi: Count: 161
+Gửi: Count: 162
+Gửi: Count: 163
+Gửi: Count: 164
+Gửi: Count: 165
+Gửi: Count: 166
+Gửi: Count: 167
+Gửi: Count: 168
+Gửi: Count: 169
+Gửi: Count: 170
+Gửi: Count: 171
+Gửi: Count: 172
+Gửi: Count: 173
+Gửi: Count: 174
+Gửi: Count: 175
+Gửi: Count: 176
+Gửi: Count: 177
+Gửi: Count: 178
+Gửi: Count: 179
+Gửi: Count: 180
+Gửi: Count: 181
+Gửi: Count: 182
+Gửi: Count: 183
+Gửi: Count: 184
+Gửi: Count: 185
+Gửi: Count: 186
+Gửi: Count: 187
+Gửi: Count: 188
+Gửi: Count: 189
+Gửi: Count: 190
+Gửi: Count: 191
+Gửi: Count: 192
+Gửi: Count: 193
+Gửi: Count: 194
+Gửi: Count: 195
+Gửi: Count: 196
+Gửi: Count: 197
+Gửi: Count: 198
+Gửi: Count: 199
+Gửi: Count: 200
+Gửi: Count: 201
+Gửi: Count: 202
+Gửi: Count: 203
+Gửi: Count: 204
+Gửi: Count: 205
+Gửi: Count: 206
+Gửi: Count: 207
+Gửi: Count: 208
+Gửi: Count: 209
+Gửi: Count: 210
+Gửi: Count: 211
+Gửi: Count: 212
+Gửi: Count: 213
+Gửi: Count: 214
+Gửi: Count: 215
+Gửi: Count: 216
+Gửi: Count: 217
+Gửi: Count: 218
+Gửi: Count: 219
+Gửi: Count: 220
+Gửi: Count: 221
+Gửi: Count: 222
+Gửi: Count: 223
+Gửi: Count: 224
+Gửi: Count: 225
+Gửi: Count: 226
+Gửi: Count: 227
+Gửi: Count: 228
+Gửi: Count: 229
+Gửi: Count: 230
+Gửi: Count: 231
+Gửi: Count: 232
+Gửi: Count: 233
+Gửi: Count: 234
+Gửi: Count: 235
+Gửi: Count: 236
+Gửi: Count: 237
+Gửi: Count: 238
+Gửi: Count: 239
+Gửi: Count: 240
+Gửi: Count: 241
+Gửi: Count: 242
+Gửi: Count: 243
+Gửi: Count: 244
+Gửi: Count: 245
+Gửi: Count: 246
+Gửi: Count: 247
+Gửi: Count: 248
+Gửi: Count: 249
+Gửi: Count: 250
+Gửi: Count: 251
+Gửi: Count: 252
+Gửi: Count: 253
+Gửi: Count: 254
+Gửi: Count: 255
+Gửi: Count: 256
+Gửi: Count: 257
+Gửi: Count: 258
+Gửi: Count: 259
+Gửi: Count: 260
+Gửi: Count: 261
+Gửi: Count: 262
+Gửi: Count: 263
+Gửi: Count: 264
+Gửi: Count: 265
+Gửi: Count: 266
+Gửi: Count: 267
+Gửi: Count: 268
+Gửi: Count: 269
+Gửi: Count: 270
+Gửi: Count: 271
+Gửi: Count: 272
+Gửi: Count: 273
+Gửi: Count: 274
+Gửi: Count: 275
+Gửi: Count: 276
+Gửi: Count: 277
+Gửi: Count: 278
+Gửi: Count: 279
+Gửi: Count: 280
+Gửi: Count: 281
+Gửi: Count: 282
+Gửi: Count: 283
+Gửi: Count: 284
+Gửi: Count: 285
+Gửi: Count: 286
+Gửi: Count: 287
+Gửi: Count: 288
+Gửi: Count: 289
+Gửi: Count: 290
+Gửi: Count: 291
+Gửi: Count: 292
+Gửi: Count: 293
+Gửi: Count: 294
+Gửi: Count: 295
+Gửi: Count: 296
+Gửi: Count: 297
+Gửi: Count: 298
+Gửi: Count: 299
+Gửi: Count: 300
+Gửi: Count: 301
+Gửi: Count: 302
+Gửi: Count: 303
+Gửi: Count: 304
+Gửi: Count: 305
+Gửi: Count: 306
+Gửi: Count: 307
+Gửi: Count: 308
+Gửi: Count: 309
+Gửi: Count: 310
+Gửi: Count: 311
+Gửi: Count: 312
+Gửi: Count: 313
+Gửi: Count: 314
+Gửi: Count: 315
+Gửi: Count: 316
