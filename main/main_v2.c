@@ -106,11 +106,16 @@ void app_main(void) {
 
     int msg_index = 0;
     // int num_messages = sizeof(messages) / sizeof(messages[0]);
-
+    char buffer[256];
     ESP_LOGI(TAG, "=== START SENDING ISO-TP MESSAGES ===");
     
     while (1) {
-        isotp_send_message(messages);
-        vTaskDelay(pdMS_TO_TICKS(2000));
+        snprintf(buffer, sizeof(buffer), "Message #%d: %s", msg_index++, messages);
+        while(g_link.send_status != ISOTP_SEND_STATUS_IDLE) {
+            isotp_poll(&g_link);
+            vTaskDelay(pdMS_TO_TICKS(10));
+        }
+        isotp_send_message(buffer);
+        vTaskDelay(pdMS_TO_TICKS(50));
     }
 }
